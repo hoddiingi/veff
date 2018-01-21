@@ -1,20 +1,3 @@
-/*document.addEventListener('DOMContentLoaded', function (event){
-	var __ = function(selector){
-	console.log(selector)
-}
-var inputs = __('#my-form input');
-var inputs2 = __('.my-form');
-
-var parent = __('#password').parent();
-//var formParent = __('#password').parent('my-form');
-
-
-
-console.log(document.getElementById('my-form'));
-
-});*/
-
-
 (function() {
 		function MakeBelieveElement(DOMElements, length) {
 			this.elements = DOMElements;
@@ -137,9 +120,7 @@ console.log(document.getElementById('my-form'));
 					}, false);
 				}
 			};
-			function myFunction() {
-			    document.getElementById("#my-form").submit();
-			}
+
 
 
 		};
@@ -154,8 +135,8 @@ console.log(document.getElementById('my-form'));
 
 		window.__ = innerMakeBelieve;
 })();
-document.addEventListener('DOMContentLoaded', function (event){
-	var inputs = __('#my-form');
+//document.addEventListener('DOMContentLoaded', function (event){
+	//var inputs = __('#my-form');
 
 	//var grandparent = __('#password').grandParent();
 	//var idgrandparent = __('#password').grandParent('#grandfather');
@@ -181,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function (event){
 	);*/
 	//__('.some-div h2').delete();
 	//__('.elemToChange').toggleClass('someclass');
-	__('#my-form').onSubmit(function(evt){
-			console.log(evt.target.value);
-	});
+	//__('#my-form').onSubmit(function(evt){
+		//	console.log(evt.target.value);
+	//});
 });
